@@ -20,6 +20,12 @@
       "id": 3,
       "nome": "Aluno3",
       "email": "aluno3@gmail.com"
+    },
+    {
+      "nome": "nome",
+      "email": "email",
+      "curso": "curso",
+      "id": 4
     }
   ],
   "cursos": [
