@@ -49,6 +49,7 @@ const AdicionarAluno = () => {
                 id="nome"
                 value={nome}
                 onChange={(e) => setNome(e.target.value)}
+                required
             />    
             </div>    
 
@@ -59,6 +60,7 @@ const AdicionarAluno = () => {
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                required
             />    
             </div>    
 
@@ -69,6 +71,7 @@ const AdicionarAluno = () => {
                 id="curso"
                 value={curso}
                 onChange={(e) => setCurso(e.target.value)}
+                required
             />    
             </div>    
 
